@@ -13,12 +13,13 @@ body{
 .md-header{
     position: fixed;
     background-color: rgba(255,255,255,0);
-    z-index: 101;
+    z-index: 201;
 
 }
 .md-tabs{
     position: absolute;
     background-color: rgba(255,255,255,0);
+    z-index: 201;
 }
 .md-nav__list{
     background-color: rgba(255,255,255,0.2);
@@ -122,5 +123,15 @@ section #btn{
 }
 .sec p{
     color: #fff;
-    font-size: 1.2em;
+    font-size: 2.2em;
+}
+p #btn1{
+    text-decoration: none;
+    color: #2b1055;
+    padding: 8px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 1em;
+    z-index: 10;
+    display: inline-block;
 }
