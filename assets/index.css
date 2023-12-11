@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(#2b1055,#7597de);
+    /*background: linear-gradient(#2b1055,#7597de);*/
     min-height: 100vh;
 
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+.body{
+    background: linear-gradient(#2b1055,#7597de);
 }
 .md-header{
     position: fixed;
@@ -25,7 +28,8 @@ body{
     background-color: rgba(255,255,255,0.2);
 }
 .md-main{
-    background: #ffffff;
+    /*background: #fff;*/
+    /*--md-primary-bg-color--light: #ffffffb3;*/
 }
 /*header #logo{*/
 /*    color: #fff;*/
